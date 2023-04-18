@@ -2,4 +2,4 @@ function myFun(){
     console.log('hello');
 }
 
-myFun()
+myFun(ds)
