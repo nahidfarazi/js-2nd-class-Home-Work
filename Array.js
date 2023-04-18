@@ -4,13 +4,15 @@
 //     mark += myArr[i];
     
 // }
-// const avarage = mark/myArr.length
-// console.log(avarage);
+// const average = mark/myArr.length
+// console.log(average);
 
 const mark = [20,30,45.66,77.88,10]
+const markFloat = parseFloat(mark).toFixed(2)
 let sum = 0;
 for(let i =0; 1 < mark.length; i++){
     sum += mark[i]
 }
-const avarage = sum /mark.length
-console.log(avarage);
+// const sumFloat = parseFloat(sum)
+
+console.log(sum);
