@@ -5,4 +5,5 @@ for (const num of numbers){
     sum += num;
     
 }
+
 console.log(sum);

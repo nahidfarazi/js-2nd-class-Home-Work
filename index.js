@@ -1,5 +1,5 @@
-function myFun(){
-    console.log('hello');
+function myFun(text){
+    console.log(text);
 }
 
-myFun(ds)
+myFun("hello world")
